@@ -1,0 +1,12 @@
+1. O DOM é um jeito de utilizar o CSS para fazer atualizações sem recarregar a pagina html. Exemplo: :houve que quando passa
+por cima do elemento que foi pre-escolhido ele irá alterar a configurações para a nova escrita pela função
+
+2. Canvas é um elemento html que se assemelha a uma DIV com a diferença de algumas formatações diferentes que o faz 
+ser utilizado para fazer desenhos utilizando a javascript para se referir a ele
+
+3. a linguagem de programação para se utilizar o canvas é o javascript mas para utilizalo é preciso o HTML
+(liguagem de marcação de hiperetexto) e você ira alterar o CSS do HTML utilizando o javascript
+
+4. ele irá pegar os dados do ID inserido no parenteses do documento.getelementbyid("") e com isso você poderá fazer
+as alterações que desejar no CSS desse ID ou pegar os valores que lhe convem para realizar funções de calculo 
+ou armazenar o valor dele em alguma variavel. 
