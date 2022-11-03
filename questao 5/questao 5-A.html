@@ -1,0 +1,54 @@
+<html>
+<body>
+    <div style="display: inline;">
+    <canvas id="canvas1" width="400" height="200" style="border:1px solid blue"></canvas>
+    <canvas id="canvas2" width="200" height="200" style="margin-left: 10px; margin-right: 10px; border-radius: 200px; border:1px solid blue"></canvas>
+    <canvas id="canvas3" width="400" height="200"></canvas>
+</div>
+    <script>
+        let canvas = document.getElementById("canvas1");
+        let context = canvas.getContext('2d');
+ 
+                context.beginPath();
+                context.fillStyle="blue";
+
+                context.moveTo(190, 50);
+                context.lineTo(300, 140);
+                context.lineTo(100, 140);
+                context.fill();
+    </script>
+    <script>
+        let canvas2 = document.getElementById("canvas2");
+        let context2 = canvas2.getContext('2d');
+ 
+                context2.beginPath();
+                context2.fillStyle="blue";
+                
+                context2.rect(30, 30, 140, 140);
+                context2.stroke();
+                context2.fill();
+                
+
+    </script>
+    <script>
+        let canvas3 = document.getElementById("canvas3");
+        let context3 = canvas3.getContext("2d");
+
+        context3.beginPath();
+        context3.strokeStyle="blue";
+        context3.moveTo(60,40);
+        context3.lineTo(20,170);
+        context3.lineTo(100,170);
+        context3.closePath();
+        context3.stroke();
+        context3.beginPath();
+        context3.strokeStyle="blue";
+        context3.moveTo(90,40);
+        context3.lineTo(50,170);
+        context3.lineTo(130,170);
+        context3.closePath();
+        context3.stroke();
+    </script>
+</body>
+
+</html>
